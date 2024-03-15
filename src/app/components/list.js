@@ -6,7 +6,7 @@ import {obtenerPosts, crearPost, actualizarPost, eliminarPost} from '../config/s
 const PostList = () => {
   const [posts, setPosts] = useState([]);
   const [nuevoTitulo,setNuevoTitulo] = useState('');
-
+ const [error , setError] = useState(null);
   useEffect(() => {
     
     const fetchData = async () => {

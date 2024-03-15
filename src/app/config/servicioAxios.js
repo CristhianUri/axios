@@ -6,7 +6,7 @@ const BASE_URL = 'https://jsonplaceholder.typicode.com';
 // Obtener todos los posts
 export const obtenerPosts = async () => {
   try {
-    const response = await axios.get(`${BASE_URL}/posts`);
+    const response = await axios.get(`${BASE_URL}/post`);
     console.log('Posts:', response.data);
     return response.data;
   } catch (error) {
