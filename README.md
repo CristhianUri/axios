@@ -38,7 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 *****************************************************************************************************************
 Este proyecto fue realizado con nextjs y axios para manejar una comunicacion Http a una api 
-llamada JSONplaceholder una api publica con la cual uno pude practicar la realizacion de un c
+llamada JSONplaceholder una api publica con la cual uno pude practicar la realizacion de un crud
 
 Dentro de la carpeta config se encuantra un archivo llamado axiosservicio,js donde se definen todas las funciones que se necesitan para la obtencion, creacion, actualizacion y elminacion de los datos con base en la documentacion de la Api y en el archivo list de la carpeta components se encontrara el llamado de estas funciones para relizar las acciones antes mencionadas y en el archivo page.js se encuentra la importacion de la vista que aparece en el archivo list.js. A cada una de las funciones se les implemento un try catch para que muestren un error en la consola en caso de que llegara a haberlo com en el siguiente caso suponiendo que al realizar la consulta get no defini bien la url en la vista se muestra vacia pero en la consola del navegador muestra que no se pueden obtener los datos 
 ![alt text](image.png)
